@@ -11,7 +11,7 @@ $(function() {
                   'very',
                   'exquisite_maeda',
                   '52_by_68',
-                  'dcl'];
+                  'draw_click_loop'];
 
   var pathName = window.location.pathname;
   console.log(pathName);
