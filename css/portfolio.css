@@ -104,3 +104,7 @@ a {
 .right-nav {
   float: right;
 }
+
+.content a {
+  color: #FAB4A6
+}
