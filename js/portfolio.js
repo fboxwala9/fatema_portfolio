@@ -1,17 +1,17 @@
 $(function() {
 
   var projects = ['les_trois_sports',
-                  'ptero',
-                  'i_talk_fast',
-                  'portland_826',
-                  'feeling_blue',
-                  'no339',
-                  'woodward_dream_cruise',
-                  'lets_meet',
-                  'very',
-                  'exquisite_maeda',
-                  '52_by_68',
-                  'draw_click_loop'];
+  'ptero',
+  'i_talk_fast',
+  'portland_826',
+  'feeling_blue',
+  'no339',
+  'woodward_dream_cruise',
+  'lets_meet',
+  'very',
+  'exquisite_maeda',
+  '52_by_68',
+  'draw_click_loop'];
 
   var pathName = window.location.pathname;
   console.log(pathName);
@@ -40,10 +40,12 @@ $(function() {
     console.log("links length: ");
     console.log(links.length);
     for(var i = 0; i<links.length; i++) {
-        $(links[i]).attr('href', 'projects/' + projects[i]);
-        $(links[i]).children('img').attr('src', 'projects/homepage_cover/' +projects[i] +'.jpg');
+      $(links[i]).attr('href', 'projects/' + projects[i]);
+      $(links[i]).children('img').attr('src', 'projects/homepage_cover/' +projects[i] +'.jpg');
     }
   }
+
+  var scrollSpeed = 5000;
 
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -52,7 +54,7 @@ $(function() {
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
-        }, 1000);
+        }, scrollSpeed);
         return false;
       }
     }});
