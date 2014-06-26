@@ -1,4 +1,4 @@
 fatema_portfolio
 ================
 
-fatema boxwala's portfolio
+this repository will just hold the static page for Fatema's portfolio.
