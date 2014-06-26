@@ -28,8 +28,8 @@ $(function() {
       var prev = projects[indexPrev]
       console.log(next);
       console.log(prev);
-      $('.left-nav a').attr('href', '../' + prev + '/index.html');
-      $('.right-nav a').attr('href','../' + next + '/index.html');
+      $('.left-nav a').attr('href', '../' + prev);
+      $('.right-nav a').attr('href','../' + next);
     }
 
   }
@@ -40,7 +40,7 @@ $(function() {
     console.log("links length: ");
     console.log(links.length);
     for(var i = 0; i<links.length; i++) {
-        $(links[i]).attr('href', 'projects/' + projects[i] + '/index.html');
+        $(links[i]).attr('href', 'projects/' + projects[i]);
         $(links[i]).children('img').attr('src', 'projects/homepage_cover/' +projects[i] +'.jpg');
     }
 
