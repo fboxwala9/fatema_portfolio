@@ -1,0 +1,106 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+
+
+      width:100%;
+      height:100%;
+}
+a {
+  font-color: black;
+}
+body {
+
+  padding: 3%;
+  width:100%;
+  height:100%;
+  background-color:rgb(242,242,242);
+}
+
+
+#top-bar {
+  width:100%;
+  min-height: 9vw;
+}
+
+#header {
+  width: 25%;
+  float: left;
+  color: rgb(0,0,0); /*black*/
+}
+#name {
+  font-size: 2.5vw;
+  line-height: 2.5vw;
+  height: 2.5vw;
+  font-family: "ff-tisa-web-pro";
+
+}
+#nav {
+  padding-right: 15%;
+  width: 100%
+}
+.nav-item {
+  width: 33%;
+  color: rgb(0,0,116);
+  float: left;
+  list-style-type: none;
+  font-size: 1.3vw;
+  font-family: "ff-dagny-web-pro";
+}
+
+.id-block {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.double-id-block {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.title{
+  color: rgb(0,0,116); /*blue*/
+  font-size: 1.4vw;
+  line-height: 2.5vw;
+  min-height: 2.5vw;
+  font-family: "ff-tisa-web-pro";
+}
+
+.content {
+  color: rgb(102,102,102); /*gray*/
+  line-height: 1.3vw;
+  font-size: 1.0vw;
+  font-family: "ff-dagny-web-pro";
+}
+
+.post-thumbnail {
+  height: 100%;
+  width: 100%;
+}
+.col-md-3, .col-md-4, .col-md-2, .col-md-6, .col-md-12 {
+  padding: .5%;
+}
+
+
+a {
+  color: rgb(0,0,116);
+}
+
+.page-nav {
+  height: 4vw;
+}
+
+.page-nav-thumbnail {
+  width: 2w;
+  height: 2vw;
+}
+.left-nav {
+  float: left;
+}
+.right-nav {
+  float: right;
+}
