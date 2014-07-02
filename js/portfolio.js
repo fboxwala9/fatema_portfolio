@@ -34,6 +34,14 @@ $(function() {
 
   }
 
+
+
+  $(".cover_photos .post-thumbnail").each(function(){
+    console.log($(this).css("width"))
+    $(this).css("height", $(this).css("width"));
+  }); 
+
+
   if(pathName.indexOf('projects') == -1) {
 
     var links = $('.col-md-3 a');
