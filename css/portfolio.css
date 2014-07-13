@@ -64,7 +64,7 @@ body {
 
 .title{
   color: rgb(0,0,116); /*blue*/
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   line-height: 2.5vw;
   min-height: 2.5vw;
   font-family: "ff-tisa-web-pro";
@@ -72,7 +72,7 @@ body {
 
 .content {
   color: rgb(102,102,102); /*gray*/
-  line-height: 1.6vw;
+  line-height: 1.5vw;
   font-size: 1.2vw;
   font-family: "ff-dagny-web-pro";
 }
