@@ -91,15 +91,16 @@ a {
 }
 
 .page-nav {
-  height: 4vw;
+  height: 1vw;
 }
 
 .page-nav-thumbnail {
-  width: 2w;
-  height: 2vw;
+  width: 1.5w;
+  height: 1.5vw;
 }
 .left-nav {
   float: left;
+  margin-left: 17vw;
 }
 .right-nav {
   float: right;
